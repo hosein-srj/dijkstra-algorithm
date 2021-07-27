@@ -22,3 +22,6 @@ The class Dijkstra is the actual Dijkstra implementation in which a adjacency-li
 edge-weight starting with a given start node gets created and the shortest path according to a given destination node 
 will be created. 
 
+watch this video to understand how it works
+
+![ezgif com-gif-maker (4)](https://user-images.githubusercontent.com/54143711/127209812-09cce084-00c9-4add-aa18-3b5261e9b556.gif)
