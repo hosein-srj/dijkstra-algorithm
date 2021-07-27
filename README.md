@@ -8,3 +8,17 @@ The algorithm exists in many variants. Dijkstra's original algorithm found the s
 
 The programming language of this algorithm is JAVA and JavaFX for graphical visualization
 
+The DijkstraApp is the Graph main class to start the application.
+
+The class Edge is used to create a EdgeObject for the Graph.
+
+The class Node is used to create a NodeObject for the Graph.
+
+The Graph Controller initializes random vertices and edges including their name and weight representation and displays 
+the whole as a graph and controls the user input (number of vertices, edges and their weight can be manipulated here).
+If the Input was successful, the shortest path will be calculated via the Dijkstra class and displayed as text.
+
+The class Dijkstra is the actual Dijkstra implementation in which a adjacency-list of predecessors with the smallest 
+edge-weight starting with a given start node gets created and the shortest path according to a given destination node 
+will be created. 
+
